@@ -11,12 +11,6 @@ const devConfig = {
   output: {
     filename: '[name].[contenthash].js'
   },
-  devServer: {
-    port: 8080,
-    historyApiFallback: {
-      index: 'index.html'
-    }
-  },
   plugins: [
       new ModuleFederationPlugin({
         name: 'container',

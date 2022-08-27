@@ -8,12 +8,6 @@ const prodConfig = {
   output: {
     filename: '[name].[contenthash].js'
   },
-  devServer: {
-    port: 8081,
-    historyApiFallback: {
-      index: 'index.html'
-    }
-  },
   plugins: [
       new ModuleFederationPlugin({
         name: 'marketing',
