@@ -1,6 +1,7 @@
 {
   "name": "container",
   "version": "1.0.0",
+  "homepage": "http://oybek703.github.io/microfrontends",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server --config config/webpack.dev.js",

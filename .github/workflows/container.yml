@@ -21,8 +21,4 @@ jobs:
       - run: npm run build
         env:
           PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
       # DEPLOY APP TO AWS S3 BUCKET
