@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import App from './App'
 
 function mount(el) {
+  console.log(el)
   ReactDOM.render(<App/>, el)
 }
 

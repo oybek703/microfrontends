@@ -5,6 +5,7 @@ const MarketingApp = () => {
   const ref = useRef(null)
   useEffect(() => {
     mount(ref.current)
+    console.log(mount)
     window.mount = mount
   })
   return <div ref={ref}/>
