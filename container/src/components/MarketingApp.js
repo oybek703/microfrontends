@@ -4,10 +4,11 @@ import {mount} from 'marketing/MarketingApp'
 const MarketingApp = () => {
   const ref = useRef(null)
   useEffect(() => {
-    console.log(mount(ref.current))
+    // mount(ref.current)
   })
+  console.log(mount)
   return (
-      <div ref={ref}/>
+      <h2>THIS SHOULD BE MARKETING APP CONTENT</h2>
   )
 }
 
