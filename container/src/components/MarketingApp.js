@@ -7,6 +7,8 @@ const MarketingApp = () => {
     console.log(ref.current)
     console.log(mount)
     console.log(typeof mount)
+    console.log(mount(ref))
+    console.log(mount())
     mount(ref.current)
   })
   return (

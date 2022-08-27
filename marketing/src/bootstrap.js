@@ -6,6 +6,7 @@ function mount(el) {
   console.log(el)
   console.log('check is mount working here.')
   ReactDOM.render(<App/>, el)
+  return 'this is result of mount function'
 }
 
 if (process.env.NODE_ENV === 'development') {
