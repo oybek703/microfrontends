@@ -5,7 +5,7 @@ import MarketingApp from './components/MarketingApp'
 const App = () => {
   return (
       <div>
-        <h1>Hi there. Can i see this text in the updated page?</h1>
+        <h1>Hi there.</h1>
         <hr/>
         <MarketingApp/>
       </div>

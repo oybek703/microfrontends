@@ -5,7 +5,6 @@ import Landing from './components/Landing'
 import Pricing from './components/Pricing'
 
 const App = () => {
-  console.log('This log is from Marketing App.')
   return (
       <StylesProvider>
         <BrowserRouter>

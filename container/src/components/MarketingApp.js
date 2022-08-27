@@ -3,8 +3,8 @@ import {mount} from 'marketing/MarketingApp'
 
 const MarketingApp = () => {
   const ref = useRef(null)
-  console.log(ref.current)
   useEffect(() => {
+    console.log(ref.current)
     mount(ref.current)
   })
   return (
