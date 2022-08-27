@@ -4,9 +4,7 @@ import {mount} from 'marketing/MarketingApp'
 const MarketingApp = () => {
   const ref = useRef(null)
   useEffect(() => {
-    console.log('this is before mount')
-    mount(ref.current)
-    console.log('this is after mount')
+    console.log(mount(ref.current))
   })
   return (
       <div ref={ref}/>
