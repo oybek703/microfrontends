@@ -15,7 +15,7 @@ const devConfig = {
       new ModuleFederationPlugin({
         name: 'container',
         remotes: {
-          'marketing': 'marketing@https://cdn.jsdelivr.net/gh/oybek703/microfrontends@master/marketing/dist/remoteEntry.js'
+          'marketing': 'marketing@http://localhost:8081/remoteEntry.js'
         },
         shared: packageJson.dependencies
       })
