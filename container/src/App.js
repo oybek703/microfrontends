@@ -7,7 +7,6 @@ const App = () => {
       <div>
         <h1>Hi there.</h1>
         <hr/>
-        <h2>THERE SHOULD BE MARKETING APP</h2>
         <MarketingApp/>
       </div>
   )
