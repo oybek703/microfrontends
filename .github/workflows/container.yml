@@ -23,7 +23,7 @@ jobs:
         env:
           PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
       - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@v4
-          with:
-            folder: ./container/dist # The folder the action should deploy.
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./container/dist # The folder the action should deploy.
       # DEPLOY APP TO AWS S3 BUCKET
