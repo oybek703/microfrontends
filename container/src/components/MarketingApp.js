@@ -5,6 +5,7 @@ import {useHistory} from 'react-router-dom'
 const MarketingApp = () => {
   const ref = useRef(null)
   const history = useHistory()
+  console.log(mount)
   useEffect(() => {
     const {onParentNavigate} = mount(
         ref.current, {
