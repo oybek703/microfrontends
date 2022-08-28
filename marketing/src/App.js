@@ -9,7 +9,6 @@ const generateClassName = createGenerateClassName({
 })
 
 const App = () => {
-  console.log('this log is from marketing App component.')
   return (
       <StylesProvider generateClassName={generateClassName}>
         <BrowserRouter>

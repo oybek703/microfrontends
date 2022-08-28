@@ -6,8 +6,6 @@ function mount(el) {
   ReactDOM.render(<App/>, el)
 }
 
-console.log(process.env.NODE_ENV)
-
 if (process.env.NODE_ENV === 'development') {
   const el = document.getElementById('_marketing-dev-root')
   if (el) mount(el)
