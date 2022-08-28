@@ -5,10 +5,8 @@ import {useHistory} from 'react-router-dom'
 const MarketingApp = () => {
   const ref = useRef(null)
   const history = useHistory()
-  console.log(mount)
   useEffect(() => {
-    const {onParentNavigate} = mount(
-        ref.current, {
+    const {onParentNavigate} = mount(ref.current, {
           initialPath: history.location.pathname,
           onNavigate: function({pathname: nextPathname}) {
             const {location: {pathname}} = history
